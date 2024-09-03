@@ -1,0 +1,16 @@
+import logo from "./logo.svg";
+import "./App.css";
+
+function Header() {
+  return <h1>Hello World</h1>;
+}
+function App() {
+  return (
+    <div class="heading">
+      Started working on react
+      <Header />
+    </div>
+  );
+}
+
+export default App;
