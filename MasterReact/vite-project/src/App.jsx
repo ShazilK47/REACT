@@ -1,12 +1,10 @@
-import Nav from "./components/Nav";
+import Card from "./components/Card";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <Nav />
-      <h1 className="title">Getting started with react</h1>
-    </>
+    // <div className="container bg-zinc-100 mx-auto w-full h-screen flex justify-center items-center gap-10">
+    <Card />
   );
 }
 
